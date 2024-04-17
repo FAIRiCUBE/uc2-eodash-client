@@ -13,11 +13,11 @@ export default createEodash((_store) => ({
     font: {
       family: "Roboto",
     },
-    logo: 'logo.png',
+    logo: 'logo_white.png',
     theme: {
       colors: {
-        primary: "#cecece",
-        secondary: "#cecece",
+        primary: "#0B4E73",
+        secondary: "#0B4E73",
         background: "#fff",
         surface: "#eee",
       },
