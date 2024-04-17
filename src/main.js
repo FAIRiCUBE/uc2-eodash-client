@@ -6,17 +6,18 @@ import container from "./container";
 export default createEodash((_store) => ({
   id: "template-id",
   stacEndpoint:
-    "https://eodash.github.io/catalog-template/template_catalog/catalog.json",
+    "https://fairicube.github.io/uc1-eodash-catalog/uc1_fairicube_catalog/catalog.json",
   routes: [],
   brand: {
-    name: "Dashboard",
+    name: "FAIRiCUBE UC1 Dashboard",
     font: {
-      family: "Poppins",
+      family: "Roboto",
     },
+    logo: 'logo.png',
     theme: {
       colors: {
-        primary: "#004170",
-        secondary: "#004170",
+        primary: "#cecece",
+        secondary: "#cecece",
         background: "#fff",
         surface: "#eee",
       },
@@ -42,6 +43,7 @@ export default createEodash((_store) => ({
           name: "EodashItemFilter",
         },
       },
+      /*
       {
         id: Symbol(),
         type: "internal",
@@ -55,6 +57,7 @@ export default createEodash((_store) => ({
           },
         },
       },
+      */
       basedOnWms,
     ],
   },
